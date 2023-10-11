@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
         playerRb.AddForce(focalPoint.transform.forward * speed * verticalInput) ;
 
         powerupIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
+        powerupGunIndicator.transform.position = transform.position + new Vector3(0, -0.5f, 0);
 
         if (hasPowerupGun == true)
         {
@@ -74,7 +75,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator PowerupGunCountDownRoutine()
     {
         yield return new WaitForSeconds(10);
-        powerupGunIndicator.gameObject.SetActive(true);
+        powerupGunIndicator.gameObject.SetActive(false);
         hasPowerupGun = false;
     }
 
