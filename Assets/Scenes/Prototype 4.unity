@@ -595,6 +595,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8878a37eb67ddac4ead51890a31d6a18, type: 3}
+--- !u!1 &1540893182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1758629138285362, guid: 11a653b9169986c4f9436a3002fb4516, type: 3}
+  m_PrefabInstance: {fileID: 1082406902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1835219727
 GameObject:
   m_ObjectHideFlags: 0
@@ -725,7 +730,7 @@ MonoBehaviour:
   playerRb: {fileID: 0}
   speed: 5
   powerupIndicator: {fileID: 104730985}
-  powerupGunIndicator: {fileID: 1758629138285362, guid: 11a653b9169986c4f9436a3002fb4516, type: 3}
+  powerupGunIndicator: {fileID: 1540893182}
   hasPowerup: 0
   hasPowerupGun: 0
   bulletPrefab: {fileID: 595330531758476064, guid: 86a41362f093874478607954031db3c4, type: 3}
